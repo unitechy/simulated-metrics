@@ -27,7 +27,8 @@ remote_write:
     basic_auth:
       username: "$remote_write_username"
       password: "$remote_write_password"
-    remote_timeout: 60s```
+    remote_timeout: 60s
+```
     
    
 
