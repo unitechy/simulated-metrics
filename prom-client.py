@@ -21,7 +21,7 @@ def generate_metrics():
     return metrics
 
 # Start the Prometheus HTTP server
-start_http_server(8000)
+start_http_server(9090)
 
 # Define a loop to generate metrics every 10 seconds
 while True:
