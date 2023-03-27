@@ -11,7 +11,7 @@ Once you have started the Python script, you can visit http://localhost:9090/met
 
 The configuration in prom.yml tells Prometheus to scrape the http://localhost:9090/metrics endpoint every 10 seconds and collect the metrics.
 
-If you want to send the metrics to Last9 Levitate, adding the following in your prometheus.yml file. You'll get the URL and Basic auth from your Last9 Levitate console:
+If you want to send the metrics to Last9 Levitate, adding the following in your prometheus.yml file. You'll get the URL and Basic auth from your [Last9 Levitate](https://last9.io/products/levitate/) console:
 
 ```global:
   scrape_interval: 1m
