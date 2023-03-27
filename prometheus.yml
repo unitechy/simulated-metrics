@@ -1,5 +1,16 @@
+global:
+  scrape_interval: 1m
+  scrape_timeout: 30s
+
 scrape_configs:
   - job_name: 'my_metrics'
-    scrape_interval: 10s
     static_configs:
-      - targets: ['localhost:8000']
+    - targets: ['localhost:9090']
+
+# remote_write:
+#  - url: "$remote_write_url"
+#   basic_auth:
+#     username: "$remote_write_username"
+#     password: "$remote_write_password"
+#   remote_timeout: 60s
+
